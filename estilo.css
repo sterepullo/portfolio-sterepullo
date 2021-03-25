@@ -1,0 +1,251 @@
+h1,
+h2,
+h3,
+body,
+p {
+  margin: 0;
+}
+
+h1,
+h3,
+h4 {
+  color: rgb(83, 83, 83);
+}
+
+h2 {
+  color: rgb(56, 56, 56);
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 22px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: lighter;
+}
+
+.profissão {
+  font-size: 20px;
+}
+
+.período {
+  font-size: 12px;
+}
+
+.t60 {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  background-color: #cdfde1;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  padding: 32px 64px;
+}
+
+.dados {
+  display: inline-block;
+  margin-bottom: -10px;
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+  border: 4px solid #a2c5b1;
+  border-radius: 50%;
+  margin-bottom: -100px;
+  margin-right: 32px;
+  margin-left: 56px;
+}
+
+main {
+  display: flex;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 70px;
+}
+
+.coluna-menor {
+  margin-top: 10px;
+  margin-left: 85px;
+  width: 250px;
+}
+
+.linha {
+  width: 80px;
+  border-top: 2px solid;
+  margin-top: 8px;
+  border-color: #6139ce;
+}
+
+.formação {
+  margin-top: 30px;
+}
+
+.coluna-menor img {
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.coluna-menor li {
+  display: flex;
+  margin-top: 20px;
+}
+
+.conteúdo {
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.coluna-maior {
+  margin-left: 40px;
+  margin-top: -50px;
+}
+.Habilidades,
+.Projetos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Projetos img {
+  width: 290px;
+  height: 150px;
+  margin-top: 20px;
+  margin-left: 0;
+  border-radius: 2px;
+}
+
+.coluna-maior h2 {
+  font-size: 38px;
+  margin-bottom: 5px;
+  margin-left: 12px;
+}
+
+.habilidade,
+.projeto {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  padding: 24px;
+  padding-bottom: 0;
+  margin: 12px;
+}
+
+.habilidade h3,
+.projeto h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.habilidade,
+.projeto p {
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+}
+
+.progresso {
+  width: 100%;
+  display: flex;
+}
+
+.barra {
+  width: 20%;
+  margin-top: 4px;
+  margin-bottom: 24px;
+  height: 4px;
+  background-color: #6139ce;
+}
+
+.incompleto {
+  opacity: 0.2;
+}
+
+.link {
+  width: 190px;
+  height: 25px;
+  background-color: #6139ce;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 100px;
+  margin-top: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.títuloProjetos {
+  margin-top: 32px;
+}
+
+.redes {
+  margin-top: 100px;
+}
+
+.redes p {
+  margin-top: -25px;
+  font-size: 20px;
+}
+
+.redes a img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+.logos {
+  margin-left: 90px;
+  padding-top: -50px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+  background-color: #a2c5b1;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-top: 50px;
+}
