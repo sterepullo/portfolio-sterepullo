@@ -138,10 +138,11 @@ ol {
 }
 
 .Projetos img {
-  width: 290px;
+  width: 161px;
   height: 150px;
-  margin-top: 20px;
-  margin-left: 0;
+  margin-top: 0;
+  margin-left: 60px;
+  padding-bottom: 0;
   border-radius: 2px;
 }
 
@@ -204,16 +205,18 @@ ol {
   margin-top: 24px;
 }
 
+.link:hover {
+  background-color: #c57ea8;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
   font-size: 18px;
-}
-
-a:hover {
-  color: #a2c5b1;
 }
 
 .títuloProjetos {
@@ -234,6 +237,8 @@ a:hover {
   height: 50px;
   border-radius: 15px;
   margin-right: 8px;
+  margin-left: 0;
+  margin-top: 20px;
 }
 
 .logos {
