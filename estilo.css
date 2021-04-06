@@ -7,13 +7,10 @@ p {
 }
 
 h1,
+h2,
 h3,
 h4 {
   color: rgb(83, 83, 83);
-}
-
-h2 {
-  color: rgb(56, 56, 56);
 }
 
 h1 {
@@ -74,11 +71,11 @@ header {
 }
 
 .foto {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-left: 4px solid #a2c5b1;
   border-bottom: 4px solid #a2c5b1;
-  border-radius: 50%;
+  border-radius: 5%;
   margin-bottom: -100px;
   margin-right: 32px;
   margin-left: 56px;
